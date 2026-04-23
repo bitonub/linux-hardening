@@ -148,4 +148,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 **Gilberto** — Cybersecurity student | Networks & Infrastructure enthusiast
 
-[![GitHub](https://img.shields.io/badge/GitHub-tu--usuario-181717?logo=github)](https://github.com/tu-usuario)
+[![GitHub](https://img.shields.io/badge/GitHub-tu--usuario-181717?logo=github)](https://github.com/bitonub)
