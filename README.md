@@ -2,7 +2,6 @@
 
 A comprehensive Bash script that automates security hardening for Debian/Ubuntu and RHEL/CentOS/Fedora Linux systems. Built as a practical cybersecurity tool to reduce attack surface on freshly provisioned servers.
 
----
 
 ##  Features
 
