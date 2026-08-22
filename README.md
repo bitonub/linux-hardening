@@ -1,10 +1,10 @@
-# 🛡️ Linux Hardening Script
+#  Linux Hardening Script
 
 A comprehensive Bash script that automates security hardening for Debian/Ubuntu and RHEL/CentOS/Fedora Linux systems. Built as a practical cybersecurity tool to reduce attack surface on freshly provisioned servers.
 
 ---
 
-## ✨ Features
+##  Features
 
 | # | Module | What it does |
 |---|--------|-------------|
@@ -17,7 +17,7 @@ A comprehensive Bash script that automates security hardening for Debian/Ubuntu 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone the repository
@@ -33,11 +33,11 @@ chmod +x harden.sh
 sudo ./harden.sh
 ```
 
-> ⚠️ **Always test in a VM or staging environment first.**
+>  **Always test in a VM or staging environment first.**
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 You can customize the script behavior by editing `hardening.conf` (or by setting environment variables):
 
@@ -55,7 +55,7 @@ sudo SSH_PORT=4422 ALLOWED_PORTS="80,443,8080" ./harden.sh
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 - **OS**: Debian 11+, Ubuntu 20.04+, CentOS 8+, RHEL 8+, Fedora 36+
 - **Privileges**: Must be run as `root` or via `sudo`
@@ -63,7 +63,7 @@ sudo SSH_PORT=4422 ALLOWED_PORTS="80,443,8080" ./harden.sh
 
 ---
 
-## 🔒 SSH Key Setup (Required Before Running)
+##  SSH Key Setup (Required Before Running)
 
 Because the script disables password-based SSH, you **must** add your public key first:
 
@@ -80,7 +80,7 @@ ssh -p 2222 -i ~/.ssh/id_ed25519 user@server-ip
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 linux-hardening/
@@ -95,21 +95,21 @@ linux-hardening/
 
 ---
 
-## 🗺️ CIS Benchmark Alignment
+##  CIS Benchmark Alignment
 
 This script is loosely based on the [CIS Linux Benchmark](https://www.cisecurity.org/cis-benchmarks). Key controls covered:
 
 | CIS Control | Implemented |
 |-------------|-------------|
 | 1.1 – Filesystem hardening | Partial |
-| 5.2 – SSH Server config | ✅ Full |
-| 5.3 – PAM password policy | ✅ Full |
-| 3.4 – Uncommon protocols | ✅ Full |
+| 5.2 – SSH Server config | Full |
+| 5.3 – PAM password policy | Full |
+| 3.4 – Uncommon protocols | Full |
 | 4.3 – Log management | Partial |
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run in dry-run mode (planned feature)
@@ -127,13 +127,13 @@ This script modifies critical system configurations. **Use it only on systems yo
 
 ---
 
-## 📜 License
+##  License
 
 MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
